@@ -1,0 +1,103 @@
+.tweetBox {
+    padding: 10px 18px 0;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--twitter-boder);
+}
+
+.tweetBox > form {
+    display: flex;
+}
+
+.tweetBox__input {
+    
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* align-items: center; */
+}
+
+/* input img */
+
+.widgets__inputImg {
+    padding-top: 30px;
+    border-top: 1px solid var(--twitter-boder);
+    transition: all 0.85s ease-out;
+}
+
+/* status input */
+.tweetBox__input > .status {
+    margin-top: 12px;
+}
+
+.tweetBox__input > .tweetMessage__empty {
+    font-size: 12px;
+    color: #E74C3C;   
+    border-top: 2px solid #E74C3C;
+    margin-top: 5px;
+    transition: all 0.85s ease-out;
+}
+
+/* .tweetBox__input > .status.empty {
+    color: red !important;
+} */
+
+/* submit btn */
+.tweetBox__input > .status--submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.tweetBox__input > .status--submit > .media {
+    margin: 0 -6px;
+}
+
+.tweetBox__input > .status--submit > .media > .icon {
+    color: var(--twitter-color);
+    font-size: 34px;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tweetBox__input > .status--submit > .media > .icon:hover {
+    background-color: var(--twitter-blur);
+}
+
+.tweetBox__input > input {
+    flex: 1;
+    color: var(--twitter-tagbox-text);
+    font-size: 20px;
+    /* height: 100%; */
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.tweetBox__imageInput {
+    border: none;
+    padding: 10px;
+}
+
+.tweetBox__tweetButton {
+    background-color: var(--twitter-bg) !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 38px !important;
+    width: 78px !important;
+    margin-top: 4px !important;
+    margin-left: auto !important;
+    transform: translateY(-2px);
+}
+
+.tweetBox__tweetButton.active {
+    background-color: var(--twitter-color) !important;
+}

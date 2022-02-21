@@ -1,0 +1,180 @@
+/* tablet & laptop mini */
+@media screen and (min-width: 500px) and (max-width: 1298px) {
+    .sidebar > a > .sidebarOption,
+    .sidebar > .sidebarOption {
+        padding: 14px 0 ;
+        margin: 0;
+    }
+
+    .sidebar__twitterIcon {
+        margin-left: 6px;
+    }
+
+    .sidebarOption > .MuiSvgIcon-root {
+        width: 100%;
+    }
+    
+    .sidebarOption > h2 {
+        display: none;
+        width: 0;
+    }
+
+    .sidebar__tweet.meta {
+        display: none;
+    
+    }
+    
+    .sidebar__tweet.simple {
+        display: block;
+        min-width: 54px !important;
+    }
+
+    .tweetAccout > .tweetAccout__info {
+        display: none;
+    }
+}
+
+/* laptop mini */
+@media screen and (min-width: 1024px) and (max-width:1298px) {
+    .app {
+        display: flex;
+        height: 100vh;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;
+    }
+    
+    .sidebar {
+        margin-left: 0;
+    }
+
+    /* widgets */
+}
+
+@media screen and (min-width: 1040px) and (max-width:1298px) {
+    .sidebar {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .widgets {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1039px) {
+    .sidebar {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .widgets {
+        /* padding-left: 20px; */
+        margin-right: 10px;
+    }
+
+    .widgets__widgetContainer,
+    .widgets__input {
+        padding-left: 20px;
+    }
+}
+/* tablet & mobile */
+@media screen and (max-width: 1023px) {
+    .feed__header {
+        padding: 0px 16px;
+    }
+
+    .tweetBox {
+        padding: 10px 16px 0;
+    }
+
+    .feed > .news {
+        padding: 22px 16px;
+    }
+
+    .pinnedLists {
+        padding: 5px 16px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .app {
+        display: flex;
+        height: 100vh;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;
+    }
+    
+    .sidebar {
+        padding-right: 15px;
+        margin-left: 0;
+    }
+
+    .widgets {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .app {
+        display: flex;
+        /* height: 100vh; */
+        /* max-width: 100%; */
+        width: 100%;
+        height: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* padding: 0 10px; */
+        /* overflow: hidden; */
+        padding: 0;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+
+    .sidebarOnMobile {
+        display: block;
+    }
+
+    /* feed */
+    .feed {
+        width: 100%;
+        min-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .feed__header {
+        width: 100%;
+        border-right: none;
+    }
+
+    .feed > .widgets__input {
+        position: fixed;
+        padding: 10px 30px;
+        width: 100%;
+    }
+
+    .feed > .news {
+        margin-top: 50px;
+    }
+
+    .post__headerText > p {
+        display: none;
+    }
+
+    .notifyOption__header {
+        width: 100%;
+    }
+
+    
+
+    .widgets {
+        display: none;
+    }
+}

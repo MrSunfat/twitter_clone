@@ -1,0 +1,23 @@
+.feed > .bookmarks {
+    margin-top: 50px;
+}
+
+.bookmarks__nothing {
+    text-align: center;
+    padding: 45px 130px 0;
+}
+
+.bookmarks__nothing > h3 {
+    color: var(--twitter-text);
+    font-size: 31px;
+    line-height: 36px;
+    font-weight: 800;
+    margin-bottom: 9px;
+}
+
+.bookmarks__nothing > p {
+    color: var(--twitter-tagbox-text);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,37 @@
+.tweetAccout {
+    display: flex;
+    align-items: center;
+    margin-top: 62px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.tweetAccout:hover { 
+    background-color: var(--twitter-sidebar-option);
+    border-radius: 30px;
+    transition: background-color 100ms ease-out;
+}
+
+.tweetAccout__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.tweetAccout__name {
+    margin-left: 12px;
+}
+
+.tweetAccout__name > h2 {
+    color: var(--twitter-text);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.tweetAccout__name > h3 {
+    color: var(--twitter-tag-text);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -1px;
+}

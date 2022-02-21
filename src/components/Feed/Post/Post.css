@@ -1,0 +1,87 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-boder);
+    padding: 15px 16px;
+}
+
+.post:hover {
+    background-color: var(--post-hover);
+}
+
+.post__body {
+    flex: 1;
+    padding-left: 10px;
+    width: 508px;
+}
+
+.post__body > img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.post__footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: var(--twitter-text);
+}
+
+.post__footer > .MuiSvgIcon-root {
+    cursor: pointer;
+}
+
+.post__footer > .editIcon:hover {
+    color: var(--twitter-color) !important;
+}
+
+.post__footer > .heartIcon:hover {
+    color: #F91880 !important;
+}
+.post__footer > .heartIcon.active {
+    color: #F91880 !important;
+    transition: color 0.6s;
+}
+
+.post__footer > .deleteIcon:hover {
+    color: red !important;
+}
+
+.post__headerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__headerText > h3 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: var(--twitter-text);
+}
+
+.post__badge {
+    color: var(--twitter-color);
+    font-size: 15px !important;
+    margin-right: 4px;
+    transform: translateY(calc(-50% + 9px));
+}
+
+.post__headerSpecial { 
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 2px;
+    color: var(--twitter-tagbox-text);
+}
+
+.post__headerDescription {
+    margin-top: 1px;
+    color: var(--twitter-text);
+    line-height: 20px;
+}
+
+.post__headerDescription > p {
+    padding-top: 6px;
+    padding-bottom: 18px;
+}

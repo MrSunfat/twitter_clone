@@ -1,0 +1,30 @@
+.feed > .profile {
+    margin-top: 50px;
+}
+
+.profile__bg {
+    width: 100%;
+}
+
+.profile__main {
+    margin-top: -85px;
+    margin-left: 22px;
+}
+
+.profile__avatar {
+    border: 5px solid #fff;
+}
+
+.profile__displayName {
+    color: var(--twitter-text);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.profile___username {
+    color: var(--twitter-tagbox-text);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}

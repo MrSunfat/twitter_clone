@@ -1,0 +1,23 @@
+.pinnedLists.active{
+    margin-top: 50px;
+}
+
+.pinnedLists {
+    padding: 5px 20px;
+}
+
+.pinnedLists__title {
+    color: var(--twitter-text);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.pinnedLists__text {
+    color: var(--twitter-tagbox-text);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-top: 54px;
+    padding-left: 16px;
+}

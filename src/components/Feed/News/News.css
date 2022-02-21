@@ -1,0 +1,40 @@
+.feed > .news {
+    display: flex;
+    align-items: flex-end;
+    height: 340px;
+    padding: 22px 20px;
+    cursor: pointer;
+}
+
+.news__container {
+    color: #fff;
+}
+
+.news__header {
+    display: flex;
+    align-items: center;
+}
+
+.news__header > h4 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.news__badge {
+    color: var(--twitter-color);
+    font-size: 16px !important;
+    text-shadow: 0 0 1px #fff;
+    transform: translateY(calc(-50% + 8px));
+}
+
+.news__content {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    margin-top: 2px;
+}

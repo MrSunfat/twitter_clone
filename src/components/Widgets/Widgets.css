@@ -1,0 +1,119 @@
+.widgets {
+    /* flex: 0.3; */
+    width: 100%;
+    margin-right: 15px;
+}
+
+/* input */
+.widgets__input {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    padding: 4px 0 4px 30px;
+    background-color: #fff;
+    z-index: 2 !important;
+}
+
+.widgets__inputContainer { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 5px 22px;
+    border-radius: 30px;
+    background-color: var(--bg-input);
+}
+
+.widgets__input > .widgets__inputContainer > .widgets__searchIcon {
+    font-size: 22px !important;
+    color: var(--twitter-text) !important;
+    font-weight: 400 !important;
+}
+
+.widgets__inputContainer > input {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 16px;
+    height: 100%;
+    width: 100%;
+    color: var(--twitter-text);
+    background-color: var(--bg-input);
+    border: none;
+    outline: unset;
+}
+
+.widgets__input.active > .widgets__inputContainer {
+    border: 2px solid var(--twitter-color);
+}
+
+.widgets__input.active > .widgets__inputContainer > .widgets__searchIcon {
+    color: var(--twitter-color) !important
+}
+
+/* trend & famous */
+.widgets__widgetContainer {
+    /* padding: 0 30px 50px; */
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+/* trend */
+.trendContainer {
+    margin-top: 13px;
+}
+
+.famousContainer {
+    margin-top: 15px;
+    /* position: fixed; */
+
+}
+
+.trendContainer, .famousContainer {
+    background-color: var(--bg-trend);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.trendContainer__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -8px;
+}
+
+.trendContainer__header > h2, 
+.famousContainer__header > h2 {
+    color: var(--twitter-text);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.trendContainer__header > .icon {
+    color: var(--twitter-text);
+    font-size: 36px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.trendContainer__header > .icon:hover {
+    background-color: var(--twitter-sidebar-option);
+    transition: background-color 100ms ease-out;
+}
+
+.trendContainer__header,
+.famousContainer__header {
+    padding: 12px 16px;
+}
+
+.trendContainer__footer, 
+.famousContainer__footer {
+    color: var(--twitter-color);
+    padding: 16px;
+}
+
+.trendContainer__footer:hover,
+.famousContainer__footer:hover {
+    background-color: var(--bg-trend-hover);
+    cursor: pointer;
+}

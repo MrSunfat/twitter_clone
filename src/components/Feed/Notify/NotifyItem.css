@@ -1,0 +1,37 @@
+.notifyItem {
+    /* margin-top: 53px; */
+    width: 100%;
+    padding: 18px 42px;
+    border-top: 1px solid var(--twitter-boder);
+    border-bottom: 1px solid var(--twitter-boder);
+
+}
+
+.notifyItem:hover {
+    background-color: var(--bg-trend-hover);
+    cursor: pointer;
+}
+
+.notifyItem__avatar {
+    box-shadow: 0 0 2px #000;
+} 
+
+.notifyItem__content {
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.notifyItem__name, .notifyItem__text {
+    font-size: 15px;
+    color: var(--twitter-text);
+    line-height: 20px;
+}
+
+.notifyItem__name {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.notifyItem__text {
+    font-weight: 400;
+}

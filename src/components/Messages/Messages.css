@@ -1,0 +1,42 @@
+.feed > .messages {
+    margin-top: calc(50px);
+    padding: 45px 35px;
+}
+
+.feed > .messages__title,
+.widgets > .messages__title {
+    color: var(--twitter-tagbox-text);
+    font-size: 31px;
+    line-height: 36px;
+    font-weight: 800;
+}
+
+.messages > .messages__title {
+    margin-bottom: 5px;
+}
+
+.feed > .messages__text,
+.widgets > .messages__text {
+    color: var(--twitter-tagbox-text);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.messages > .messages__btn {
+    padding: 18px 35px !important;
+    margin-top: 35px !important;
+    font-size: 17px !important;
+    color: #fff !important;
+    line-height: 20px !important;
+    border-radius: 30px !important;
+    background-color: var(--twitter-color) !important;
+    text-transform: capitalize !important;
+}
+
+
+
+.widgets > .widgets__widgetContainer > .messages {
+    height: 100%;
+    transform: translateY(calc(100% + 8px))
+}
