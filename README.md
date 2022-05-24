@@ -3,7 +3,6 @@ Link web: https://twitter-clone-c068a.firebaseapp.com/home
 ## Công nghệ:
 - ReactJS
 - React Router
-- Redux
 - Material UI
 - Firebase
 
